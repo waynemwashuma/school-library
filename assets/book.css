@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+header .back {
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 20px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Library</title>
+  <style>
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #3b4cca;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #2e38a5;
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">Entermine School Library</h1>
+    <nav class="navbar">
+      <a href="./index.html">Home</a>
+      <a href="./catalog.html">Catalog</a>
+      <a href="./rules.html">Rules</a>
+      <a href="./contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+  <main class="contact-container">
+    <div class="contact-card">
+      <h3>Mrs. Grace Wanjiku</h3>
+      <p><strong>Position:</strong> School Librarian</p>
+      <p><strong>Email:</strong> grace@entermine.ac.ke</p>
+      <p><strong>Phone:</strong> +254 712 345 678</p>
+      <p><strong>Location:</strong> Main School Building, Ground Floor</p>
+    </div>
+
+    <h3>Send us a message</h3>
+
+    <form>
+      <label>Your Name</label>
+      <input type="text" placeholder="Enter your name">
+
+      <label>Your Email</label>
+      <input type="email" placeholder="Enter your email">
+
+      <label>Your Message</label>
+      <textarea placeholder="Write your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Entermine School Library. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
